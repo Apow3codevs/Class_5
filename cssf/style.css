@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*======Header======*/
+
+.toolbar {
+  color: white;
+  font-size: 11.7px;
+  height: 50px;
+  width: 100%;
+  background: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  padding: 0 10px;
+}
+.container {
+  height: 20px;
+  width: 1250px;
+  margin-right: 0;
+  padding: 1px;
+}
+
+.col70 {
+  height: 20px;
+  width: auto;
+  padding: 17px;
+  display: inline-block;
+  margin-left: 62px;
+  padding-right: 2px 0;
+}
+
+.col70 a {
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+  padding-left: 10px;
+}
+
+.col70 a:hover {
+  text-decoration: underline;
+}
+
+.col30 {
+  height: 20px;
+  width: auto;
+  display: inline-block;
+  text-decoration: none;
+  float: right;
+  font-weight: 700px;
+  font-size: 12px;
+  padding: 17px 0;
+}
+
+.col30 a {
+  color: white;
+  text-decoration: none;
+  padding-left: 17px;
+}
+
+.col30 a:hover {
+  text-decoration: underline;
+}
+
+/*======Body======*/
+
+body {
+  background-image: url(../CSS/slider-6.jpg);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+/*======main_menu======*/
+
+.main_menu {
+  padding: 25px 15px 5px 15px;
+  margin-left: 75px;
+  margin-right: 70px;
+  font-family: "roboto", sans-serif;
+}
+
+.col25 {
+  display: inline-block;
+  height: 188px;
+  width: 60px;
+}
+
+.col75 {
+  display: inline-block;
+  float: right;
+  font-weight: 900px;
+  padding-top: 0;
+  padding-right: 2px;
+}
+
+.menu a {
+  color: white;
+  display: inline-block;
+  padding: 11px 11px 29px 15px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  margin-right: 2px;
+}
+
+.logo img {
+  height: 90px;
+  width: 90px;
+  padding-bottom: 20px;
+  position: absolute;
+  left: 120px;
+  display: inline-block;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+  transition: 0.5s;
+}
+
+.better {
+  position: absolute;
+  top: 220px;
+  left: 30px;
+  font-family: "Roboto", serif;
+}
+
+.better h3 {
+  font-family: "roboto", sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  color: white;
+}
+
+.better h1 {
+  font-family: "Roboto Slab", serif;
+  font-size: 50px;
+  font-size: bold;
+  line-height: 100px;
+  color: white;
+}
+
+button {
+  color: #333333;
+  padding: 15px 30px;
+  background: #ffb606;
+  border: none;
+}
+
+.bttr {
+  display: inline-block;
+  font-family: "Roboto-slab", sans-serif;
+}
+
+.chevron {
+  height: 90px;
+  width: 90px;
+  position: relative;
+  display: inline-block;
+  float: left;
+  left: 30px;
+  top: 70px;
+  margin: 0;
+}
+
+.catagory {
+  height: 150px;
+  width: 1200px;
+  position: absolute;
+  left: 120px;
+  bottom: 30px;
+  font-family: "Roboto Slab", sans-serif;
+}
+
+.ctg {
+  display: table;
+  float: right;
+  left: -100px;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+}
+
+.col33 {
+  position: relative;
+  height: 150px;
+  width: 388px;
+  background: black;
+  display: inline-block;
+  opacity: 50%;
+}
+
+.ctnr img {
+  float: left;
+  padding-right: 20px;
+  padding-left: 40px;
+  position: relative;
+  display: inline-block;
+  top: 25px;
+}
+
+.ctg h3 {
+  font-size: 24px;
+  font-weight: 700px;
+}
+
+.ctg a {
+  color: orange;
+  font-size: 16px;
+  margin-top: 14px;
+  display: inline-block;
+  text-decoration: none;
+  padding-top: 15px;
+}
+
+.ctg {
+  padding-top: 20px;
+  left: -40px;
+  color: white;
+}
+
+.ctg a:hover {
+  text-decoration: underline;
+}
+
+.col33:hover {
+  opacity: 100%;
+  cursor: pointer;
+  transition: 0.7s;
+}
